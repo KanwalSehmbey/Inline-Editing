@@ -1,0 +1,38 @@
+th {
+    width: 200px;
+    text-align: left;
+}
+td.actions {
+    width: 40px;
+    background: url('edit.png') no-repeat;
+    background-color: white;
+}
+td.errmsg {
+    width: 200px;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+}
+tr {
+    line-height: 40px;
+}
+tr.highlight {
+    background-color: lightblue;
+}
+tr.editR {
+    background-color: lemonchiffon;
+}
+td.highlight{
+    background-color: lightblue;
+}
+td.edit {
+    width: auto;
+    overflow:hidden;
+    //background-color: lemonchiffon;
+    background: url('save.png') no-repeat;
+    background-color: white;
+}
+span.error {
+    color: red;
+    text-height: bold;
+}
